@@ -4,18 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "parcel-bundler": "^1.7.0",
-    "prompt": "^1.0.0",
     "eslint": "^4.19.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.9.0",
-    "jest": "^22.4.2"
+    "jest": "^22.4.2",
+    "node-fetch": "^2.1.2",
+    "parcel-bundler": "^1.7.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
   }
 }
