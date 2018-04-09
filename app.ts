@@ -38,4 +38,4 @@ const onReject = async (resp: Response | null, prevResp: Response | null) => {
 req
   .get("https://swapi.co/api/films/", onResolve, onReject)
   .get("https://swapi.co/api/people/", onResolve, onReject)
-  .get("http://yandex.ru/404", onResolve, onReject);
+  .get("https://yandex.ru/404", onResolve, onReject);
