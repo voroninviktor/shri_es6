@@ -1,3 +1,9 @@
+/**
+ * Интерфейс колбэков, передаваеых методам get() и post()
+ * 
+ * @export
+ * @interface RespCallback
+ */
 export interface RespCallback {
   (resp: Response, prevResp: Response | null): void;
 }
